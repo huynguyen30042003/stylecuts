@@ -6,7 +6,7 @@ import Link from "next/link";
 const Login = () => {
   return (
     <div className="bg-[#fff] w-[100vw] h-[100vh] flex justify-center items-center">
-      <div className="login w-[442px] mx-[64px] flex flex-col">
+      <div className="login w-[442px] max-sm:mx-[24px] flex flex-col">
         <Image src={imageClose} className="mb-[111px] " />
         <span className=" leading-[48px] text-[#7797EE] text-[64px] font-bold">
           Login
@@ -26,8 +26,8 @@ const Login = () => {
           Login
         </button>
         <div className="flex justify-center mt-[22px] text-[20px] font-bold">
-          <span className="text-[#88878F]">Don’t Have account?</span>
-          <Link href="/register">Register now</Link>
+          <span className="text-[#88878F] pr-[5px]">Don’t Have account?</span>
+          <Link href="/register">Register Now</Link>
         </div>
       </div>
     </div>
